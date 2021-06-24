@@ -889,8 +889,12 @@
 
             .about-shop,
             .categories{
-                width: 60% !important;
+                width: 80% !important;
                 text-align: center !important;
+
+                .about-shop-item{
+                    width: 100%;
+                }
             }
             
             .about-shop{
@@ -954,6 +958,10 @@
 
         .collection-2018-info{
             width: 100%;
+
+            .collection-2018-info-wrapper{
+                width: 80%;
+            }
         }
     }
 
