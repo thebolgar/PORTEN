@@ -850,8 +850,12 @@
   }
   .container .footer-wrapper .about-shop,
 .container .footer-wrapper .categories {
-    width: 60% !important;
+    width: 80% !important;
     text-align: center !important;
+  }
+  .container .footer-wrapper .about-shop .about-shop-item,
+.container .footer-wrapper .categories .about-shop-item {
+    width: 100%;
   }
   .container .footer-wrapper .about-shop .about-shop-item-h2 {
     margin: 40px 0px 20px 0px !important;
@@ -895,6 +899,9 @@
   }
   .collection-2018 .collection-2018-info {
     width: 100%;
+  }
+  .collection-2018 .collection-2018-info .collection-2018-info-wrapper {
+    width: 80%;
   }
   .new-arrivals .new-arrivals-wrapper .new-arrivals-block {
     display: none;
